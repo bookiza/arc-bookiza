@@ -1,10 +1,8 @@
 # Arc-Bookiza
 
-Returns the arc object to register and connect bookiza client.
-
+Returns the ARC object to register Bookiza Client and connect it with the Bubblin Superbook API.
 
 ## Usage:
-
 
 ```
     const arc = require('arc-bookiza');
