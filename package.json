@@ -3,6 +3,7 @@
   "version": "1.0.13",
   "description": "Returns the ARC object to register Bookiza Client from the terminal and connect it with the Bubblin Superbook API",
   "main": "arc.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bookiza/arc-bookiza.git"
