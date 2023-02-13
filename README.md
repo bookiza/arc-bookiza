@@ -1,15 +1,20 @@
 # Arc-Bookiza
 
-Returns the ARC object to register Bookiza Client and connect it with the Bubblin Superbook API.
+Returns the ARC object to register Bookiza Client with, and connects it to the [Bubblin Superbook API](https://bubblin.io).
 
 ## Usage:
 
 ```
-    const arc = require('arc-bookiza');
+    import read from 'arc-bookiza'
+    import os from 'os'
 
-    let location = path.join(__dirname, '..', '.bookizarc');
+    /* Get to the root directory of the machine */
+    const homeDir = os.homedir()
+    const location = `${homeDir}/.bookizarc` 
+    
+    // const location = path.join(__dirname, '..', '.bookizarc');
 
-    arc.read(location)
+    read(location)
         .then((data) => {
           // Do something with arc.rc values.
           ...
