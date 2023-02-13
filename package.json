@@ -1,6 +1,6 @@
 {
   "name": "arc-bookiza",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Returns the ARC object to register Bookiza Client with and to connect it with the Bubblin Superbook API",
   "main": "arc.js",
   "type": "module",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/bookiza/arc-bookiza.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "keywords": [],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
